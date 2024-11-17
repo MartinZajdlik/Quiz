@@ -26,11 +26,17 @@ public class ListQuestions {
         options3.add("9");
         options3.add("4");
         Question q3 = new Question("What is 3 * 3?", options3, "b");
+
+        questions.add(q1);
+        questions.add(q2);
+        questions.add(q3);
+
+
+
     }
 
     public List<Question> getQuestions(){
         return questions;
     }
-
 
 }

@@ -32,15 +32,15 @@ public class Quiz {
             System.out.println();
 
             if (question.checkAnswer(yourAnswer)) {
-                System.out.println("Your answer is correct!");
+                //System.out.println("Your answer is correct!");
                 score++;
 
             }
             else {
-                    System.out.println("Your answer is false!");
+                    //System.out.println("Your answer is false!");
                 }
             }
-        System.out.println("Your score is: " +score);
+        System.out.println("Correct answers is: " +score);
         }
 
 
